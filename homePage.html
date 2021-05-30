@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee payroll</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?fa,ily=Roboto:wght@300;400;500;600&dispaly=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/my_Home.css">
+    <script defer src="js/new_home.js"></script>
+</head>
+<body>
+  <!--UC 1-->  
+  <header class="head-content head">
+      <div class="logo-content">
+          <img src="" alt="">
+          <div>
+              <span class="emp-text">EMPLOYEE</span><br>
+              <span class="emp-text emp-payroll">PAYROLL</span>
+          </div>
+      </div>
+  </header>
+  <div class="main-content">
+      <!--UC2-->
+        <div class="head-content">
+            <div class="emp-detail-text">
+                Employee Details<div class="emp-count">10</div>
+            </div>
+            <a href="employeePayroll.html" class="add-button">
+                <img src="" alt="">Add User</a>
+        </div>
+        <table id="display" class="table">
+            <!--UC3-->
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td><img class="profile" alt="" src="profile-images/2.jpg"></td>
+                <td>Narayan Mahadevan</td>
+                <td>Male</td>
+                <td><div class="dept-label">HR</div>
+              <div class="dept-label">Finance</div></td>
+              <td>300000</td>
+              <td>1 Nov 2020</td>
+              <td>
+                  <img class="image" id="1" onclick="remove(this)" alt="delete" src="images/delete.png">
+                  <img class="image" id="1" alt="edit" onclick="update(this)" src="images/edit.png">
+              </td>
+            </tr>
+        </table>
+  </div>
+  
+</body>
+</html>
