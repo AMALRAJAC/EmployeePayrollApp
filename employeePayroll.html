@@ -34,22 +34,22 @@
                 <div class="profile-radio-content">
                     <label>
                         <input type="radio" id="profile1" name="profile"
-                        value="../assets/profile-images/1.jpg" required>
+                        value="profile-images/1.jpg" required>
                         <img class="profile" id='image1' src="profile-images/1.jpg">
                     </label>
                     <label>
                         <input type="radio" id="profile2" name="profile"
-                        value="../assets/profile-images/2.jpg" required>
+                        value="profile-images/2.jpg" required>
                         <img class="profile" id='image2' src="profile-images/2.jpg">
                     </label>
                     <label>
                         <input type="radio" id="profile3" name="profile"
-                        value="../assets/profile-images/3.jpg" required>
+                        value="profile-images/3.jpg" required>
                         <img class="profile" id='image3' src="profile-images/3.jpg">
                     </label>
                     <label>
                         <input type="radio" id="profile4" name="profile"
-                        value="../assets/profile-images/4.jpg" required>
+                        value="profile-images/4.jpg" required>
                         <img class="profile" id='image4' src="profile-images/4.jpg">
                     </label>
                 </div>
@@ -148,7 +148,7 @@
                     <textarea id="notes" class="input" name="Notes" placeholder="" style="height:100px"></textarea>
                 </div>
                 <div class="buttonParent">
-                    <a href="./employeePayroll.html" class="resetButton button cancelButton">Cancel</a>
+                    <a href="./employeePayroll.html" class="button cancelButton">Cancel</a>
                     <div class="submit-reset">
                         <button type="submit" class="button submitButton" id="submitButton">Submit</button>
                         <button type="reset" class="resetButton button">Reset</button>
@@ -156,13 +156,5 @@
                 </div>
         </form>
     </div>
-    <script>
-
-    const salary=document.querySelector('#salary');
-    const output=document.querySelector('.salary-output');
-    salary.addEventListener('input',function(){
-        output.textContent=salary.value;
-    });
-    </script>
 </body>
 </html>
