@@ -1,0 +1,31 @@
+{
+  "EmployeePayrollDB": [
+    {
+      "id": "3",
+      "_name": "AMAL",
+      "_profilePic": "profile-images/3.jpg",
+      "_gender": "male",
+      "_department": [
+        "Hr",
+        "Sales",
+        "Engineer"
+      ],
+      "_salary": "451800",
+      "_note": "amal",
+      "_startDate": "15may2021"
+    },
+    {
+      "id": "4",
+      "_name": "Anagha",
+      "_profilePic": "profile-images/1.jpg",
+      "_gender": "female",
+      "_department": [
+        "Hr",
+        "Sales"
+      ],
+      "_salary": "444100",
+      "_note": "anagha",
+      "_startDate": "17may2021"
+    }
+  ]
+}
